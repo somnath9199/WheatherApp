@@ -1,0 +1,45 @@
+.my{
+  margin-top: 6rem;
+  
+}
+.box{
+    background-image: url('./assets/Home.png');
+     
+      background-repeat: no-repeat;
+      background-size: cover;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        margin: auto;
+       gap: 12px;
+       border-radius: 12px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+#temp{
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 24px;
+  
+}
+#location{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 1px 2px  #000;
+ margin-top: 2rem;
+}
+#whaether{
+    font-size: 24px;
+    text-transform: capitalize;
+}
