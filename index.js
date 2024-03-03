@@ -19,18 +19,7 @@ const API_KEY = "45b74706a13fdbacfa483e259b489630";
              locality.innerHTML = data.name;
              var desp =  document.getElementById("whaether");
              desp.innerHTML = wheth;
-               var myerelement = document.getElementById("myelement");
-            //    switch(nammer){
-            //     case "01d": if(myerelement) myerelement.src=cloud;
-            //     case "02d":
-            //     case "03d":
-            //     case "04d":
-            //     case "09d":
-            //     case "10d":
-            //     case "11d":
-            //     case "13d":
-            //     case "50d":
-            //    }
+
               
             }).catch((err)=>{
                 console.log("have some eror");
